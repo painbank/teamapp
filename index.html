@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title text="">Team USA Battle of Nations 2015</title>
+    <link rel="stylesheet" type="text/css" href="templates/fighter.css">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.css">
+    <script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.7.5/less.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <div align="center" ng-app="myApp" ng-controller="namesCtrl">
+   
+        <select ng-style="selectStyle" ng-model="opt" ng-options="fighter.name for fighter in fighters" ng-change="change(opt)" id="dropdown">
+        <!--    <option ng-repeat="fighter in fighters" value="{{fighter.name}}">{{fighter.name}}</option>-->
+        </select>
+        
+        <button ng-click="up()" class="btnRed">Up</button>
+        <button ng-click="down()" class="btnRed">Down</button>
+        
+        <p text="center">{{fighterDescription}}</p>
+        <div id="myImgDiv">
+        <img ng-src="{{imgFilePath}}" alt="Armor for Fighter." /> 
+        </div>
+    </div>
+    
+    <script src="fighterController.js"></script>
+</body>
+</html>

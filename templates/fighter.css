@@ -1,0 +1,56 @@
+select {
+  font-size: 32px;
+}
+
+#dropdown {
+  color: #fff;
+  background-color: #0F17FF;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  padding-left: 15px;
+}
+
+#myImgDiv 
+{
+}
+#myImgDiv img
+{
+max-width:100%; 
+max-height:100%;
+margin:auto;
+display:block;
+}
+
+imgadsf {
+  height:100%;
+  width:100%;
+  max-width: 1280;
+}
+
+.btnRed {
+  background: #f00c0c;
+  background-image: -webkit-linear-gradient(top, #f00c0c, #a6002f);
+  background-image: -moz-linear-gradient(top, #f00c0c, #a6002f);
+  background-image: -ms-linear-gradient(top, #f00c0c, #a6002f);
+  background-image: -o-linear-gradient(top, #f00c0c, #a6002f);
+  background-image: linear-gradient(to bottom, #f00c0c, #a6002f);
+  -webkit-border-radius: 19;
+  -moz-border-radius: 19;
+  border-radius: 19px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btnRed:hover {
+  background: #bd4e64;
+  background-image: -webkit-linear-gradient(top, #bd4e64, #c40846);
+  background-image: -moz-linear-gradient(top, #bd4e64, #c40846);
+  background-image: -ms-linear-gradient(top, #bd4e64, #c40846);
+  background-image: -o-linear-gradient(top, #bd4e64, #c40846);
+  background-image: linear-gradient(to bottom, #bd4e64, #c40846);
+  text-decoration: none;
+}
